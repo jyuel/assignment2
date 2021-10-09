@@ -1,0 +1,18 @@
+---
+title: "Assignment_2"
+output: html_document
+---
+
+
+From the dataset, I select the visualization of observation distribution of different continents.
+
+For the figure below, the x axis is the the name of continent, and the y axis is the count number of observations from different continents.
+
+The finding from this visualization is: Aferica has the largest number of observations, and Oceania has the least number of observations.
+
+
+```{r, echo=FALSE}
+source("wrangling_code.R")
+source("visualization_function.R")
+func(gapminder)
+```
